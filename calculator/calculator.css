@@ -1,0 +1,157 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	height: 100vh;
+	width: 100vw;
+	background: rgb(76, 207, 60);
+	background: linear-gradient(
+		125deg,
+		rgba(76, 207, 60, 1) 0%,
+		rgba(29, 167, 253, 1) 50%,
+		rgba(76, 207, 60, 1) 100%
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 40rem;
+	height: fit-content;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.display {
+	padding: 1.5rem 2rem;
+	background-color: #000;
+	display: flex;
+	height: fit-content;
+	min-height: 9rem;
+	flex-direction: column;
+	/* align-items: flex-end; */
+	line-height: 5rem;
+}
+
+.text {
+	margin: 0;
+	width: 100%;
+	/* overflow: scroll; */
+	word-wrap: break-word;
+	text-align: end;
+}
+.previous {
+	font-size: 3rem;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 0.2rem;
+	line-height: 4rem;
+	min-height: 4rem;
+}
+
+.current {
+	font-size: 4.6rem;
+	color: rgba(255, 255, 255, 1);
+	min-height: 5rem;
+}
+
+button {
+	background-color: rgb(240, 240, 255);
+	border: 1px solid white;
+	/* padding: 1.5rem; */
+	height: 7rem;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: dodgerblue;
+}
+
+button:active {
+	background-color: darkblue;
+}
+
+div.buttons {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-areas:
+		'del del ac ac'
+		'one two three times'
+		'four five six divide'
+		'seven eight nine add'
+		'period zero ans minus'
+		'square root equal equal';
+}
+.one {
+	grid-area: one;
+}
+.two {
+	grid-area: two;
+}
+.three {
+	grid-area: three;
+}
+.four {
+	grid-area: four;
+}
+.five {
+	grid-area: five;
+}
+.six {
+	grid-area: six;
+}
+.seven {
+	grid-area: seven;
+}
+.eight {
+	grid-area: eight;
+}
+.nine {
+	grid-area: nine;
+}
+.zero {
+	grid-area: zero;
+}
+.lb {
+	grid-area: lb;
+}
+.rb {
+	grid-area: rb;
+}
+.ac {
+	grid-area: ac;
+}
+.times {
+	grid-area: times;
+}
+.add {
+	grid-area: add;
+}
+.divide {
+	grid-area: divide;
+}
+.minus {
+	grid-area: minus;
+}
+.period {
+	grid-area: period;
+}
+.equals {
+	grid-area: equal;
+}
+.ans {
+	grid-area: ans;
+}
+.del {
+	grid-area: del;
+}
+.square {
+	grid-area: square;
+}
+.root {
+	grid-area: root;
+}
