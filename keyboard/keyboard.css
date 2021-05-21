@@ -1,0 +1,43 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(100, 200, 250, 1);
+}
+
+.keyboard {
+	border: 1px solid black;
+	border-right: 0;
+	width: auto;
+	height: auto;
+	display: flex;
+	box-shadow: 0 0 3rem black;
+}
+
+.whitekey {
+	background-color: white;
+	width: 10rem;
+	height: 30rem;
+	border-right: 1px solid black;
+	z-index: 1;
+}
+
+.whitekey.active {
+	background-color: lightgray;
+}
+
+.blackkey {
+	width: 6rem;
+	height: 20rem;
+	background-color: black;
+	margin: 0 -3rem 0 -3rem;
+	z-index: 2;
+}
+.blackkey.active {
+	background-color: rgb(100, 100, 100);
+}
