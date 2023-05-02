@@ -1,5 +1,5 @@
 # Personal-Projects
-Calculator - JavaScript
-Keyboard - JavaScript
-GoFishGame - Java
-Stopwatch - Javascript
+Calculator - JavaScript <br />
+Keyboard - JavaScript <br />
+GoFishGame - Java <br />
+Stopwatch - Javascript <br />
