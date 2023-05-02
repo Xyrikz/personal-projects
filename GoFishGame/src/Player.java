@@ -20,7 +20,7 @@ public class Player {
     }
 
     public void initFromDeck(CardDeck cardDeck) {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 5; i++) {
             cardHand.addToGroup(cardDeck.takeFromDeck());
         }
     }
